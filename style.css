@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #ff42a5;
+  --secondary-color: #4ec5f7;
+}
+
+.unique {
+  color: var(--primary-color);
+}
+
+/* navbar work start here  */
+.nav {
+  height: 80px;
+  /* border: red solid 2px; */
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.logo {
+  height: 90%;
+  width: 20%;
+  /* border: black solid 2px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-image {
+  width: 86.041px;
+  height: 40px;
+  /* border: black solid 2px; */
+  margin-right: 10px;
+}
+.tittle-shop {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  /* border: black solid 2px; */
+}
+.list-item {
+  height: 90%;
+  width: 35%;
+  /* border: orange solid 2px; */
+  /* display: flex; */
+}
+.list {
+  display: flex;
+  /* margin-right: 20px; */
+}
+.list > p {
+  margin-right: 20px;
+  /* border: red solid 2px; */
+}
+.small-box {
+  width: 60%;
+  /* border: blueviolet solid 2px; */
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  justify-content: space-around;
+}
+section {
+  height: 400px;
+  width: 100%;
+  border: black solid 2px;
+}
