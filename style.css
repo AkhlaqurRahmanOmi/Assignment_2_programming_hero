@@ -72,6 +72,7 @@ section {
   /* justify-content: space-between; */
   /* padding: 10px; */
 }
+
 .box {
   height: 95%;
   width: 45%;
@@ -79,10 +80,19 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: red solid 2px;
+  /* border: red solid 2px; */
   margin: 20px;
   position: relative;
   /* text-align: center; */
+}
+
+.header-box {
+  width: 95%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .info {
   background-image: url("./images/Group\ 14.png");
@@ -141,17 +151,15 @@ section {
   color: white;
   font-size: 20px;
 }
-.collections {
-}
 .big-img {
   height: 60%;
   width: 95%;
-  border: red solid 2px;
+  /* border: red solid 2px; */
 }
 .small-imgs {
   height: 35%;
   width: 95%;
-  border: red solid 2px;
+  /* border: red solid 2px; */
   display: flex;
 }
 #content {
@@ -170,6 +178,57 @@ section {
 #short-des {
   height: 120px;
   width: 250px;
-  border: red solid 2px;
+  /* border: red solid 2px; */
   text-align: right;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.collection {
+  height: 75%;
+  width: 95%;
+  /* border: red solid 2px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card {
+  height: 95%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: blue solid 2px; */
+  padding: 5px;
+}
+
+.card-image {
+  height: 60%;
+  width: 95%;
+  border-radius: 20%;
+}
+
+.forth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#sub-header {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+#indexing-image {
+  z-index: -1;
 }
